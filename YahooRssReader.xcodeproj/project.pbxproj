@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39D1C7917A47E1F001E9CF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39D1C7817A47E1F001E9CF3 /* UIKit.framework */; };
+		A39D1C7B17A47E1F001E9CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39D1C7A17A47E1F001E9CF3 /* Foundation.framework */; };
+		A39D1C7D17A47E1F001E9CF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39D1C7C17A47E1F001E9CF3 /* CoreGraphics.framework */; };
+		A39D1C8317A47E1F001E9CF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39D1C8117A47E1F001E9CF3 /* InfoPlist.strings */; };
+		A39D1C8517A47E1F001E9CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D1C8417A47E1F001E9CF3 /* main.m */; };
+		A39D1C8917A47E1F001E9CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D1C8817A47E1F001E9CF3 /* AppDelegate.m */; };
+		A39D1C8B17A47E1F001E9CF3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A39D1C8A17A47E1F001E9CF3 /* Default.png */; };
+		A39D1C8D17A47E1F001E9CF3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A39D1C8C17A47E1F001E9CF3 /* Default@2x.png */; };
+		A39D1C8F17A47E1F001E9CF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A39D1C8E17A47E1F001E9CF3 /* Default-568h@2x.png */; };
+		A39D1C9217A47E1F001E9CF3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39D1C9017A47E1F001E9CF3 /* MainStoryboard.storyboard */; };
+		A39D1C9517A47E1F001E9CF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D1C9417A47E1F001E9CF3 /* ViewController.m */; };
+		A39D1C9D17A47E1F001E9CF3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39D1C9C17A47E1F001E9CF3 /* SenTestingKit.framework */; };
+		A39D1C9E17A47E1F001E9CF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39D1C7817A47E1F001E9CF3 /* UIKit.framework */; };
+		A39D1C9F17A47E1F001E9CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39D1C7A17A47E1F001E9CF3 /* Foundation.framework */; };
+		A39D1CA717A47E1F001E9CF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39D1CA517A47E1F001E9CF3 /* InfoPlist.strings */; };
+		A39D1CAA17A47E1F001E9CF3 /* YahooRssReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D1CA917A47E1F001E9CF3 /* YahooRssReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A39D1CA017A47E1F001E9CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39D1C6D17A47E1F001E9CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39D1C7417A47E1F001E9CF3;
+			remoteInfo = YahooRssReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A39D1C7517A47E1F001E9CF3 /* YahooRssReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooRssReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39D1C7817A47E1F001E9CF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A39D1C7A17A47E1F001E9CF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A39D1C7C17A47E1F001E9CF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A39D1C8017A47E1F001E9CF3 /* YahooRssReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooRssReader-Info.plist"; sourceTree = "<group>"; };
+		A39D1C8217A47E1F001E9CF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39D1C8417A47E1F001E9CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39D1C8617A47E1F001E9CF3 /* YahooRssReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YahooRssReader-Prefix.pch"; sourceTree = "<group>"; };
+		A39D1C8717A47E1F001E9CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39D1C8817A47E1F001E9CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39D1C8A17A47E1F001E9CF3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A39D1C8C17A47E1F001E9CF3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A39D1C8E17A47E1F001E9CF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A39D1C9117A47E1F001E9CF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A39D1C9317A47E1F001E9CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A39D1C9417A47E1F001E9CF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A39D1C9B17A47E1F001E9CF3 /* YahooRssReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooRssReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39D1C9C17A47E1F001E9CF3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A39D1CA417A47E1F001E9CF3 /* YahooRssReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooRssReaderTests-Info.plist"; sourceTree = "<group>"; };
+		A39D1CA617A47E1F001E9CF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39D1CA817A47E1F001E9CF3 /* YahooRssReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YahooRssReaderTests.h; sourceTree = "<group>"; };
+		A39D1CA917A47E1F001E9CF3 /* YahooRssReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YahooRssReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39D1C7217A47E1F001E9CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39D1C7917A47E1F001E9CF3 /* UIKit.framework in Frameworks */,
+				A39D1C7B17A47E1F001E9CF3 /* Foundation.framework in Frameworks */,
+				A39D1C7D17A47E1F001E9CF3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39D1C9717A47E1F001E9CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39D1C9D17A47E1F001E9CF3 /* SenTestingKit.framework in Frameworks */,
+				A39D1C9E17A47E1F001E9CF3 /* UIKit.framework in Frameworks */,
+				A39D1C9F17A47E1F001E9CF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A39D1C6C17A47E1F001E9CF3 = {
+			isa = PBXGroup;
+			children = (
+				A39D1C7E17A47E1F001E9CF3 /* YahooRssReader */,
+				A39D1CA217A47E1F001E9CF3 /* YahooRssReaderTests */,
+				A39D1C7717A47E1F001E9CF3 /* Frameworks */,
+				A39D1C7617A47E1F001E9CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39D1C7617A47E1F001E9CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39D1C7517A47E1F001E9CF3 /* YahooRssReader.app */,
+				A39D1C9B17A47E1F001E9CF3 /* YahooRssReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39D1C7717A47E1F001E9CF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39D1C7817A47E1F001E9CF3 /* UIKit.framework */,
+				A39D1C7A17A47E1F001E9CF3 /* Foundation.framework */,
+				A39D1C7C17A47E1F001E9CF3 /* CoreGraphics.framework */,
+				A39D1C9C17A47E1F001E9CF3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39D1C7E17A47E1F001E9CF3 /* YahooRssReader */ = {
+			isa = PBXGroup;
+			children = (
+				A39D1C8717A47E1F001E9CF3 /* AppDelegate.h */,
+				A39D1C8817A47E1F001E9CF3 /* AppDelegate.m */,
+				A39D1C9017A47E1F001E9CF3 /* MainStoryboard.storyboard */,
+				A39D1C9317A47E1F001E9CF3 /* ViewController.h */,
+				A39D1C9417A47E1F001E9CF3 /* ViewController.m */,
+				A39D1C7F17A47E1F001E9CF3 /* Supporting Files */,
+			);
+			path = YahooRssReader;
+			sourceTree = "<group>";
+		};
+		A39D1C7F17A47E1F001E9CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39D1C8017A47E1F001E9CF3 /* YahooRssReader-Info.plist */,
+				A39D1C8117A47E1F001E9CF3 /* InfoPlist.strings */,
+				A39D1C8417A47E1F001E9CF3 /* main.m */,
+				A39D1C8617A47E1F001E9CF3 /* YahooRssReader-Prefix.pch */,
+				A39D1C8A17A47E1F001E9CF3 /* Default.png */,
+				A39D1C8C17A47E1F001E9CF3 /* Default@2x.png */,
+				A39D1C8E17A47E1F001E9CF3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39D1CA217A47E1F001E9CF3 /* YahooRssReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A39D1CA817A47E1F001E9CF3 /* YahooRssReaderTests.h */,
+				A39D1CA917A47E1F001E9CF3 /* YahooRssReaderTests.m */,
+				A39D1CA317A47E1F001E9CF3 /* Supporting Files */,
+			);
+			path = YahooRssReaderTests;
+			sourceTree = "<group>";
+		};
+		A39D1CA317A47E1F001E9CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39D1CA417A47E1F001E9CF3 /* YahooRssReaderTests-Info.plist */,
+				A39D1CA517A47E1F001E9CF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39D1C7417A47E1F001E9CF3 /* YahooRssReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39D1CAD17A47E1F001E9CF3 /* Build configuration list for PBXNativeTarget "YahooRssReader" */;
+			buildPhases = (
+				A39D1C7117A47E1F001E9CF3 /* Sources */,
+				A39D1C7217A47E1F001E9CF3 /* Frameworks */,
+				A39D1C7317A47E1F001E9CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YahooRssReader;
+			productName = YahooRssReader;
+			productReference = A39D1C7517A47E1F001E9CF3 /* YahooRssReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A39D1C9A17A47E1F001E9CF3 /* YahooRssReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39D1CB017A47E1F001E9CF3 /* Build configuration list for PBXNativeTarget "YahooRssReaderTests" */;
+			buildPhases = (
+				A39D1C9617A47E1F001E9CF3 /* Sources */,
+				A39D1C9717A47E1F001E9CF3 /* Frameworks */,
+				A39D1C9817A47E1F001E9CF3 /* Resources */,
+				A39D1C9917A47E1F001E9CF3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A39D1CA117A47E1F001E9CF3 /* PBXTargetDependency */,
+			);
+			name = YahooRssReaderTests;
+			productName = YahooRssReaderTests;
+			productReference = A39D1C9B17A47E1F001E9CF3 /* YahooRssReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39D1C6D17A47E1F001E9CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "aybek can kaya";
+			};
+			buildConfigurationList = A39D1C7017A47E1F001E9CF3 /* Build configuration list for PBXProject "YahooRssReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A39D1C6C17A47E1F001E9CF3;
+			productRefGroup = A39D1C7617A47E1F001E9CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39D1C7417A47E1F001E9CF3 /* YahooRssReader */,
+				A39D1C9A17A47E1F001E9CF3 /* YahooRssReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39D1C7317A47E1F001E9CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39D1C8317A47E1F001E9CF3 /* InfoPlist.strings in Resources */,
+				A39D1C8B17A47E1F001E9CF3 /* Default.png in Resources */,
+				A39D1C8D17A47E1F001E9CF3 /* Default@2x.png in Resources */,
+				A39D1C8F17A47E1F001E9CF3 /* Default-568h@2x.png in Resources */,
+				A39D1C9217A47E1F001E9CF3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39D1C9817A47E1F001E9CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39D1CA717A47E1F001E9CF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A39D1C9917A47E1F001E9CF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39D1C7117A47E1F001E9CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39D1C8517A47E1F001E9CF3 /* main.m in Sources */,
+				A39D1C8917A47E1F001E9CF3 /* AppDelegate.m in Sources */,
+				A39D1C9517A47E1F001E9CF3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39D1C9617A47E1F001E9CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39D1CAA17A47E1F001E9CF3 /* YahooRssReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A39D1CA117A47E1F001E9CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39D1C7417A47E1F001E9CF3 /* YahooRssReader */;
+			targetProxy = A39D1CA017A47E1F001E9CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A39D1C8117A47E1F001E9CF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39D1C8217A47E1F001E9CF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A39D1C9017A47E1F001E9CF3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39D1C9117A47E1F001E9CF3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A39D1CA517A47E1F001E9CF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39D1CA617A47E1F001E9CF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39D1CAB17A47E1F001E9CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A39D1CAC17A47E1F001E9CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39D1CAE17A47E1F001E9CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooRssReader/YahooRssReader-Prefix.pch";
+				INFOPLIST_FILE = "YahooRssReader/YahooRssReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A39D1CAF17A47E1F001E9CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooRssReader/YahooRssReader-Prefix.pch";
+				INFOPLIST_FILE = "YahooRssReader/YahooRssReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A39D1CB117A47E1F001E9CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YahooRssReader.app/YahooRssReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooRssReader/YahooRssReader-Prefix.pch";
+				INFOPLIST_FILE = "YahooRssReaderTests/YahooRssReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A39D1CB217A47E1F001E9CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YahooRssReader.app/YahooRssReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooRssReader/YahooRssReader-Prefix.pch";
+				INFOPLIST_FILE = "YahooRssReaderTests/YahooRssReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39D1C7017A47E1F001E9CF3 /* Build configuration list for PBXProject "YahooRssReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39D1CAB17A47E1F001E9CF3 /* Debug */,
+				A39D1CAC17A47E1F001E9CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39D1CAD17A47E1F001E9CF3 /* Build configuration list for PBXNativeTarget "YahooRssReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39D1CAE17A47E1F001E9CF3 /* Debug */,
+				A39D1CAF17A47E1F001E9CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A39D1CB017A47E1F001E9CF3 /* Build configuration list for PBXNativeTarget "YahooRssReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39D1CB117A47E1F001E9CF3 /* Debug */,
+				A39D1CB217A47E1F001E9CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39D1C6D17A47E1F001E9CF3 /* Project object */;
+}
