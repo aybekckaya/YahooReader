@@ -78,7 +78,7 @@
     const NSInteger TABLECELLTAG=1000;
     
     static NSString *reuseIdentifier = @"Cell";
-    //asd
+    //asdeewe
     RssCellCL *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
     
     if(cell == nil)
