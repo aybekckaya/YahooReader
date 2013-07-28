@@ -87,7 +87,7 @@
         
         cell =(RssCellCL *)[views objectAtIndex:0];
         cell.delegate=self;
-        //asda
+        //asdawe
         
     }
     else
