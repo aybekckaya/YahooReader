@@ -40,7 +40,7 @@
 
 -(void)ParserDidFetchRssItems:(NSArray *)RssArr
 {
-    [XmlParser CreateEntriesFromRssItems:0]; // init call
+    [XmlParser CreateEntriesFromRssItems:0]; // init callas
 }
 
 
