@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Parser.h"
+#import "MBProgressHUD.h"
+#import "RssCellCL.h"
 
-@interface ViewController : UIViewController
+/*
+    - Internet baglantisi olmadigi zamanki test 
+ */
+
+@interface ViewController : UIViewController<ParserDelegate,MBProgressHUDDelegate,UITableViewDataSource,UITableViewDelegate,RssCellDelegate>
+{
+    Parser *XmlParser;
+    MBProgressHUD *CHUD;
+    NSMutableArray *RssItems;
+    int currentSelection;
+}
 
 @end
