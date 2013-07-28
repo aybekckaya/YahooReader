@@ -92,7 +92,7 @@
     }
     else
     {
-        // cell has created Before
+        // cell has created Beforej
     }
     
     Entry *theEntry=[RssItems objectAtIndex:indexPath.row];
